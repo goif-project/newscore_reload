@@ -1,0 +1,147 @@
+html, body, div, p, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video
+  margin 0
+  padding 0
+  border 0
+  outline 0
+  font-size 100%
+  vertical-align baseline
+  background transparent
+
+body
+  line-height 1
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display block
+
+nav ul, ul
+  list-style none
+
+blockquote, q
+  quotes none
+
+blockquote
+  before, after
+    content ''
+    content none
+
+q
+  before, after
+    content ''
+    content none
+
+a
+  margin 0
+  padding 0
+  font-size 100%
+  text-decoration none
+  vertical-align baseline
+  background transparent
+
+ins
+  background-color #ff9
+  color #000
+  text-decoration none
+
+mark
+  background-color #ff9
+  color #000
+  font-style italic
+  font-weight bold
+
+del
+  text-decoration line-through
+
+abbr[title], dfn[title]
+  border-bottom 1px dotted
+  cursor help
+
+table
+  border-collapse collapse
+  border-spacing 0
+
+hr
+  display block
+  height 1px
+  border 0
+  border-top 1px solid #ccc
+  margin 1em 0
+  padding 0
+
+input, select
+  vertical-align middle
+
+.wrapper
+  position relative
+  min-height 900px
+  padding 0 0 5%
+  &:after
+    content ""
+    position fixed
+    z-index -1
+    width 1440px
+    height 900px
+    top 0
+    left 0
+    background url(../img/index_back.png) no-repeat
+    background-size 100% auto
+  h1
+    width 80%
+    height 250px
+    margin 2% auto
+    padding 2% 0 0
+    background url(../img/index_title.png) no-repeat
+    background-size 100% auto
+    text-indent -9999px
+    overflow hidden
+  h2
+    display block
+    width 50%
+    margin 0 auto 2%
+    padding 30px 0
+    color #fff
+    font-size 45px
+    text-align center
+    background #009365
+    border 5px solid #fff
+    border-radius 10px
+
+ul
+  border-bottom 2px solid #000
+  list-style none
+  width 80%
+  margin 0 auto
+  background #fff
+  li
+    p
+      display inline-block
+      width 50%
+      text-align center
+      border-right 1px solid #aaa
+      box-sizing border-box
+      &:first-child
+        border-left 2px solid #000
+      &:last-child
+        border-right 2px solid #000
+
+#title-wrap
+  border-top 2px solid #000
+  li
+    p
+      text-align: center
+      font-size: 35px
+      font-weight: bold
+      padding: 15px
+      color: #fff
+      &.name
+        background: #000
+      &.total
+        background: #f00
+
+#messages
+  list-style-type: none
+  li
+    border-bottom: 1px solid #aaa
+    p
+      line-height: 60px
+      font-size: 25px
+      font-weight: bold
